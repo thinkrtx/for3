@@ -26,7 +26,6 @@ jobs:
     - name: Auth
 
       run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
-      run : ngrok config add-authtoken 2WL3IJX4H1cqv9hJe2vE6rQ6nfA_2UzwACfpgo3rkQrqCc1Pk
 
       env:
 
